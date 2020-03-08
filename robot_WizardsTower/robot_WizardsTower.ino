@@ -16,6 +16,7 @@ byte space = 128;
 byte check;
 int j;
 IRsendBase mySender;
+String str;
 
 void setup() {
   while (!Serial);
