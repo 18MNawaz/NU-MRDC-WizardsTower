@@ -1,3 +1,4 @@
+//Code to be uploaded
 #include <IRLibSendBase.h>    
 #include <IRLib_HashRaw.h>  
   
@@ -15,8 +16,6 @@ byte space = 128;
 byte check;
 int j;
 IRsendBase mySender;
-String str;
-String message = "#MRDC"; //EDIT THIS STRING TO CHANGE THE MESSAGE
 
 void setup() {
   while (!Serial);
