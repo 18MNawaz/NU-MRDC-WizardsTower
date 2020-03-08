@@ -6,7 +6,7 @@
 
 //create an RF24 object
 RF24 radio(7, 8);  // CE, CSN
-String message = "#DRAGON"; //Message to be sent to wizard's tower through robot
+String message = "#MRDC"; //Message to be sent to wizard's tower through robot
 const byte address[6] = "00001"; //address through which two modules communicate.
 
 void setup()
