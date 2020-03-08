@@ -1,4 +1,4 @@
-//Code to be uploaded
+//Code to be uploaded to robot, sends message that was received by RF to Wizard's Tower using IR
 #include <IRLibSendBase.h>    
 #include <IRLib_HashRaw.h>  
   
