@@ -35,11 +35,10 @@ void setup() {
  
 void loop() {
   byte temp[32];
-
+int size1;
   if(radio.available()) {
     radio.read(&temp, sizeof(temp));
-  }
-int size1 = (sizeof(temp)/sizeof(temp[0]));
+    size1 = (sizeof(temp)/sizeof(temp[0]));
     j = 0;
     while(temp[j] !=  128){
       Serial.println(temp[j]);
@@ -48,8 +47,8 @@ int size1 = (sizeof(temp)/sizeof(temp[0]));
         break;
       }
     }
-      Serial.println(j);
-              Serial.print("Start");
+  }
+
       number = 0;
       byte message[j+1];
       for (int i = 0; i<=j; i++) {
